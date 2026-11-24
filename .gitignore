@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and local artifacts
+*.log
+*.tar.gz
+*.zip
+artifact_*
+
+# Secrets and local config (do not commit to GitHub)
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Temporary Jenkins workspace
+workspace/
+target/
